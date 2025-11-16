@@ -1,0 +1,27 @@
+{
+  "name": "my-website---professional-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "1.1.0",
+    "class-variance-authority": "0.7.0",
+    "framer-motion": "11.2.12",
+    "lucide-react": "^0.553.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-medium-image-zoom": "^5.4.0",
+    "three": "0.165.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

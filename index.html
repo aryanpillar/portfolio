@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aryan | Professional Portfolio</title>
+    <meta name="description" content="A professional portfolio for Aryan, a Senior Software Engineer specializing in backend systems and AI.">
+    <meta name="keywords" content="Aryan, Software Engineer, Portfolio, React, TypeScript, Tailwind CSS, Backend, AI">
+    <meta name="author" content="Aryan">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {}
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <style>
+      :root {
+        --bg-charcoal: #FFFFFF;
+        --text-primary: #0A0A0A;
+        --text-secondary: #6B7280;
+        --glow-cyan: #6366F1;
+        --glow-white: rgba(0, 0, 0, 0.7);
+        --border-color: rgba(0, 0, 0, 0.1);
+      }
+      
+      .dark {
+        --bg-charcoal: #0A0A0A;
+        --text-primary: #EAEAEA;
+        --text-secondary: #A0A0A0;
+        --glow-cyan: #A78BFA;
+        --glow-white: rgba(255, 255, 255, 0.7);
+        --border-color: rgba(255, 255, 255, 0.1);
+      }
+      
+      html {
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+      }
+      @supports (font-variation-settings: normal) {
+        html { font-family: 'Inter var', sans-serif; }
+      }
+      body {
+        background-color: var(--bg-charcoal);
+        color: var(--text-primary);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .tracking-tight-custom {
+        letter-spacing: -0.05em;
+      }
+      
+      @media print {
+        :root {
+          --bg-charcoal: #FFFFFF;
+          --text-primary: #0B0B0B;
+          --text-secondary: #374151;
+          --border-color: #E5E7EB;
+        }
+        body {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          font-size: 10pt;
+          line-height: 1.4;
+          background-color: #FFFFFF !important;
+          color: #0B0B0B !important;
+        }
+        
+        header, footer, [data-noprint] {
+          display: none !important;
+        }
+
+        main {
+          padding: 0 !important;
+          margin: 0 !important;
+          max-width: 100% !important;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+          page-break-after: avoid;
+          color: #0B0B0B !important;
+        }
+
+        section {
+          padding-top: 1rem !important;
+          padding-bottom: 1rem !important;
+          border: none !important;
+          margin: 0 !important;
+          background: none !important;
+          box-shadow: none !important;
+        }
+
+        [class*="glow"], [class*="shadow"] {
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+        
+        a {
+          text-decoration: none;
+          color: #0B0B0B !important;
+        }
+
+        a[href^="http"]:after, a[href^="https"]:after {
+            content: " (" attr(href) ")";
+            font-size: 0.8em;
+            font-weight: normal;
+        }
+        
+        .print-text-sm {
+           font-size: 9pt;
+        }
+        
+        .print-break-inside-avoid {
+          page-break-inside: avoid;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "three": "https://esm.sh/three@0.165.0",
+    "framer-motion": "https://esm.sh/framer-motion@11.2.12?external=react",
+    "@radix-ui/react-slot": "https://esm.sh/@radix-ui/react-slot@1.1.0?external=react",
+    "class-variance-authority": "https://esm.sh/class-variance-authority@0.7.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
