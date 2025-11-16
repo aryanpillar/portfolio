@@ -40,23 +40,23 @@ export const portfolioData: PortfolioData = {
   ],
   experience: [
     {
-      company: "CreatorOS",
-      role: "Lead Platform Engineer",
-      dates: "2019 - Present",
+      company: "Event Pros",
+      role: "CMO",
+      dates: "Sep 2024 - Sep 2025",
       description: [
-        "Built an integrated, leak-resistant course delivery platform with DRM and analytics, designed to minimize unauthorized distribution while maintaining a seamless user experience.",
-        "Implemented secure payment flows and subscriber management, integrating Stripe and server-side validation to handle recurring billing and access control.",
-        "Led product engineering tasks end-to-end: from system design and implementation to deployment, monitoring, and iterative improvement based on user feedback."
+        "Led the entire marketing and client-acquisition function for an event-management company. Designed and executed growth strategies that consistently brought in high-value clients.",
+        "Oversaw brand positioning, digital campaigns, outreach systems, and conversion pipelines. Built repeatable marketing processes and optimized lead quality.",
+        "Partnered with operations to ensure smooth delivery. Played a critical role in revenue expansion by combining performance marketing, strategic partnerships, and customer-centric messaging."
       ]
     },
     {
-      company: "ScaleUp SaaS",
-      role: "Full-Stack Engineer",
-      dates: "2016 - 2019",
+      company: "Purely Social (Creator Agency)",
+      role: "Founder",
+      dates: "Jan 2023 - Nov 2025",
       description: [
-        "Developed automated moderation pipelines and tooling using Python and scikit-learn, which reduced manual review overhead by 60% and sped up content approval.",
-        "Architected and maintained front-end platforms using React and Tailwind CSS, with a focus on accessibility, performance, and print/ATS compatibility.",
-        "Contributed to building scalable backend services in Node.js for a multi-tenant SaaS application."
+        "Founded and scaled a creator-focused agency helping influencers, coaches, and digital entrepreneurs grow their presence and monetize effectively.",
+        "Built the agency from zero—client acquisition, service delivery, operations, branding, and partnerships. Developed growth frameworks for creators and handled negotiations.",
+        "Led a small team, optimized workflows, and transformed the agency into a high-efficiency service brand with a strong client network delivering measurable results across content, social strategy, and collaborations."
       ]
     }
   ],
