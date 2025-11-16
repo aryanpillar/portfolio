@@ -65,19 +65,17 @@ export const portfolioData: PortfolioData = {
       title: "Leak-Resistant Course Platform",
       description: "An end-to-end platform for creators to sell and securely deliver video courses, featuring DRM, payment integration, and subscriber analytics.",
       stack: ["Java", "React", "Stripe", "Supabase", "VdoCipher", "AWS"],
-      repoUrl: "https://github.com/aryan-dev/secure-creator-platform"
+      repoUrl: "https://hellobiro.netlify.app/"
     },
     {
       title: "Automated Moderation Engine",
       description: "A service that uses applied ML models to automate content moderation, flagging content based on predefined policies to ensure community safety.",
-      stack: ["Python", "scikit-learn", "Data Pipelines", "Node.js", "REST API"],
-      repoUrl: "https://github.com/aryan-dev/moderation-engine"
+      stack: ["Python", "scikit-learn", "Data Pipelines", "Node.js", "REST API"]
     },
     {
       title: "Pragmatic CI/CD for Small Teams",
       description: "A set of templates and workflows for setting up lightweight, effective CI/CD pipelines using GitHub Actions for small-scale SaaS products.",
-      stack: ["GitHub Actions", "Docker", "CI/CD", "IaC"],
-      repoUrl: "https://github.com/aryan-dev/pragmatic-cicd"
+      stack: ["GitHub Actions", "Docker", "CI/CD", "IaC"]
     }
   ],
   education: [
