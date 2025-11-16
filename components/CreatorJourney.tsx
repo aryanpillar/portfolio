@@ -63,11 +63,11 @@ const CreatorJourney: React.FC = () => {
               className="relative"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[--glow-cyan]/20 to-purple-500/20 rounded-2xl blur-2xl" />
-              <div className="relative bg-gradient-to-br from-gray-100 to-white dark:from-gray-900 dark:to-gray-800 p-4 rounded-2xl border-2 border-[--glow-cyan] shadow-2xl shadow-[--glow-cyan]/20">
+              <div className="relative bg-gradient-to-br from-gray-100 to-white dark:from-gray-900 dark:to-gray-800 rounded-2xl border-2 border-[--glow-cyan] shadow-2xl shadow-[--glow-cyan]/20 overflow-hidden">
                 <img
                   src="/instagram-screenshot.png"
                   alt="Instagram @ironpi11ar"
-                  className="w-full h-auto rounded-lg"
+                  className="w-full h-auto block"
                   onError={(e) => {
                     // Fallback if image doesn't exist
                     e.currentTarget.style.display = 'none';
