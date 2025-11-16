@@ -26,10 +26,10 @@ export const portfolioData: PortfolioData = {
     availability: "Open to new opportunities"
   },
   contact: {
-    email: "aryan.engineer@email.com",
+    email: "aryangulia046@gmail.com",
     phone: "+91 98765 43210",
     github: "https://github.com/aryan-dev",
-    linkedin: "https://linkedin.com/in/aryan-dev"
+    linkedin: "https://www.linkedin.com/in/ironpillar"
   },
   skills: [
     { category: "Languages & Backend", skills: [{ name: "Java" }, { name: "Python" }, { name: "JavaScript/Node" }] },
